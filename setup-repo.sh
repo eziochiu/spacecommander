@@ -7,7 +7,7 @@ repo_path=$(git rev-parse --show-toplevel)
 clang_format="$repo_path/.clang-format"
 
 if [ -f "$clang_format" ]; then
-  echo "clang_format exit"
+  echo "clang_format exist"
   exit
 fi
 
