@@ -3,6 +3,12 @@
 # Used to configure a repo for formatting, and adds a precommit hook to check formatting.
 # Copyright 2015 Square, Inc
 
+repo_path=$(git rev-parse --show-toplevel)
+clang_format="$repo_path/.clang-format"
+if [ - f "$clang_format" ]; then
+  echo "clang_format exit"
+fi
+
 set -ex
 export CDPATH=""
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
