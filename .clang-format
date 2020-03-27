@@ -56,7 +56,7 @@ AlignConsecutiveDeclarations: false
 SpacesInContainerLiterals: false
 
 # 在构造函数初始化时按逗号断行，并以冒号对齐
-BreakConstructorInitializersBeforeComma: true
+BreakConstructorInitializersBeforeComma: false
 
 # 函数参数换行
 AllowAllParametersOfDeclarationOnNextLine: true
