@@ -59,7 +59,7 @@ SpacesInContainerLiterals: false
 BreakConstructorInitializersBeforeComma: false
 
 # 函数参数换行
-AllowAllParametersOfDeclarationOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: false
 
 # 每行字符的长度
 ColumnLimit: 0
